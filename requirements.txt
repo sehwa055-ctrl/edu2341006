@@ -6,7 +6,7 @@ cycler==0.11.0
 fonttools==4.39.0
 kiwisolver==1.4.4
 pyparsing==3.0.9
-numpy>=1.19.0
+numpy==1.24.3
 pillow>=8.0.0
 python-dateutil>=2.7
 setuptools>=40.0
