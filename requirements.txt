@@ -1,11 +1,15 @@
 altair==5.5.0
 attrs==25.3.0
 blinker==1.9.0
-matplotlib==3.7.1
+matplotlib==3.5.3
 cycler==0.11.0
 fonttools==4.39.0
 kiwisolver==1.4.4
 pyparsing==3.0.9
+numpy>=1.19.0
+pillow>=8.0.0
+python-dateutil>=2.7
+setuptools>=40.0
 cachetools==6.2.0
 certifi==2025.8.3
 charset-normalizer==3.4.3

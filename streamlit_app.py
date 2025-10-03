@@ -1,9 +1,13 @@
 import streamlit as st
 import numpy as np
+
 # Matplotlib 설정
 import matplotlib
-matplotlib.use('agg')
+matplotlib.use('Agg')  # GUI 없이 실행하기 위한 백엔드 설정
 import matplotlib.pyplot as plt
+plt.style.use('default')  # 기본 스타일 사용
+matplotlib.rcParams['figure.facecolor'] = 'white'
+matplotlib.rcParams['axes.facecolor'] = 'white'
 from matplotlib.patches import Polygon
 
 def analyze_triangle(a, b, c):
